@@ -1,4 +1,6 @@
+AIP=diskitude-0.0.0.aip
+
 all: installer
 
-installer: diskitude-0.0.0.aip
-	AdvancedInstaller /build diskitude-0.0.0.aip
+installer: $(AIP)
+	AdvancedInstaller /build $(AIP)
